@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+ <head>
+ <script type="text/javascript"> 
+ function show_prompt() 
+ { 
+ var name=prompt("Wpisz tu","swoje imię"); 
+ if (name!=null && name!="") 
+ { 
+ document.write("napisano " + name + ". to twoje imię?"); 
+ } 
+ } 
+ </script> 
+</head> 
+<body> 
+ <input type="button" onclick="show_prompt()" value="Pokaż prompt" /> 
+ </body> 
+<!-- Do prompta mozna wpisac cos, po tym funkcja albo pokazuje nam to co wpisalismy,
+lub wartosc null jesli anulujemy.
+Szymon Gałkowski 3F-->
